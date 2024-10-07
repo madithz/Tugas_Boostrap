@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AlphaOto</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Tambahkan link ke file CSS -->
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top sticky-top">
+        <a class="navbar-brand" href="#">AlphaOto</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>    
+
+    <!-- Hero Section (Home) -->
+    <section id="home" class="hero-section">
+        <div class="overlay"></div> <!-- Layer gambar dengan overlay hitam -->
+        <div class="hero-content text-center">
+            <h1 class="display-4">Welcome to AlphaOto</h1>
+            <p class="lead">Hello, I'm a Freelance Photographer specializing in automotive photography</p>
+            <a href="#about" class="btn btn-primary">Learn More</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="container py-5">
+        <div class="row text-center">
+            <div class="col">
+                <h2>About Us</h2>
+                <p class="p1">Alpha Otomotive is a professional photography business specializing in capturing high-quality images of cars, bikes, and other automotive vehicles.
+                Our photographers have over 5 years of experience in the automotive industry, delivering stunning visuals for magazines, brands, and personal collections.</p>
+            </div>
+        </div>
+
+        <!-- Gallery Section -->
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <img src="DSC04595-Enhanced-NR.jpg" class="img-fluid mb-4" alt="Photo 1">
+            </div>
+            <div class="col-md-4">
+                <img src="DSC04600.jpg" class="img-fluid mb-4" alt="Photo 2">
+            </div>
+            <div class="col-md-4">
+                <img src="DSC04613.jpg" class="img-fluid mb-4" alt="Photo 3">
+            </div>
+            <div class="col-md-4">
+                <img src="DSC04619.jpg" class="img-fluid mb-4" alt="Photo 4">
+            </div>
+            <div class="col-md-4">
+                <img src="DSC04636.jpg" class="img-fluid mb-4" alt="Photo 5">
+            </div>
+            <div class="col-md-4">
+                <img src="DSC04637.jpg" class="img-fluid mb-4" alt="Photo 6">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="container py-5">
+        <h2 class="text-center">Contact Us</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Enter your message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light py-3 text-center">
+        <div class="container">
+            <p>&copy; 2024 Alpha Otomotive. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

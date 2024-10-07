@@ -1,0 +1,79 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+  position: absolute;
+  width: 100%;
+  background: transparent;
+  z-index: 10;
+}
+
+.navbar-brand {
+  font-weight: bold;
+
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  background-image: url('DSC04605.jpg'); /* Ganti dengan jalur yang sesuai */
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Lapisan warna hitam dengan opacity 50% */
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  color: white;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.hero-content p.lead {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.hero-content p.p2 {
+  margin-bottom: auto;
+}
+
+.hero-content a {
+  font-size: 1.2rem;
+  color: white;
+  background-color: #007bff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero-content a:hover {
+  background-color: #0056b3;
+}
+
+/* Other sections */
+.about, .contact {
+  padding: 60px 0;
+}
